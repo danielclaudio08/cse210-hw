@@ -1,21 +1,23 @@
 public class Entry
 {
-    public string _date;
-    public string _promptText;
-    public string _entryText;
+    public string Date { get; set; } // Date of the entry
+    public string PromptText { get; set; } // Prompt for the entry
+    public string EntryText { get; set; } // Response to the prompt
 
-    public Entry(string date, string promptText, string entryText)
-    // Initializes an entry with a date, prompt, and text.
+    public Entry() { } // Default constructor
+
+    public Entry(string date, string promptText, string entryText) // Parameterized constructor
     {
-        _date = date;
-        _promptText = promptText;
-        _entryText = entryText;
+        Date = date;
+        PromptText = promptText;
+        EntryText = entryText;
     }
 
+    // Displays the details of the entry
     public void Display()
     {
-        Console.WriteLine($"\nDate: {_date}");
-        Console.WriteLine($"Prompt: {_promptText}");
-        Console.WriteLine($"Response: {_entryText}");
+        Console.WriteLine($"\nDate: {Date}");
+        Console.WriteLine($"Prompt: {PromptText}");
+        Console.WriteLine($"Response: {EntryText}");
     }
 }
