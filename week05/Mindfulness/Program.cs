@@ -21,7 +21,7 @@ class Program
       switch (choice)
       {
         case "1":
-          // Run Breathing Activity
+          // Run Breathing Activity with animation effect (see BreathingActivity.cs file)
           new BreathingActivity().RunBreathingActivity();
           Thread.Sleep(5000);
           break;
