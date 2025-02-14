@@ -1,4 +1,7 @@
 // Stretch Activity: Breathing Animation Effect '*'
+// This effect visually represents the breathing process by gradually increasing and decreasing the number of asterisks displayed on the console.
+// When inhaling, the number of asterisks increases, and when exhaling, the number of asterisks decreases.
+// The animation is controlled by a loop that adjusts the length of the asterisk line and includes a delay to create a smooth visual effect.
 public class BreathingActivity : Activity
 {
   // Constructor for the BreathingActivity class, initializing with a name and description

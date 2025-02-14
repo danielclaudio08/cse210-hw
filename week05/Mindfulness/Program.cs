@@ -1,3 +1,7 @@
+// The main entry point for the Mindfulness Program.
+// This program allows users to choose between different mindfulness activities:
+// Breathing Activity, Reflecting Activity, and Listing Activity.
+// By exceeding the requirements, an animation effect was added to the BreathingActivity class.
 using System;
 using System.Threading;
 
