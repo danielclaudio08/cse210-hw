@@ -1,7 +1,10 @@
-// The main entry point for the Mindfulness Program.
-// This program allows users to choose between different mindfulness activities:
-// Breathing Activity, Reflecting Activity, and Listing Activity.
-// By exceeding the requirements, an animation effect was added to the BreathingActivity class.
+// Entry point for the Mindfulness Program.
+// Users can select from various mindfulness activities: Breathing Activity, Reflecting Activity, and Listing Activity.
+// An animation effect has been added to the BreathingActivity class to enhance the experience.
+// Stretch Activity: Breathing Animation Effect '*'
+// This effect simulates the breathing process by increasing and decreasing the number of asterisks displayed on the console.
+// During inhalation, the asterisks count rises, and during exhalation, it falls.
+// The animation is managed by a loop that changes the length of the asterisk line and includes a delay for a smooth visual effect.
 using System;
 using System.Threading;
 
